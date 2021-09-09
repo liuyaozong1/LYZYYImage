@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0512D75D402C2D380BAD73A8 /* Pods_LYZYYImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYZYYImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		05C04233D087592FC671DD45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		05C04233D087592FC671DD45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2A80DF6497F15503FB92ACDC /* Pods-LYZYYImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZYYImage_Example.debug.xcconfig"; path = "Target Support Files/Pods-LYZYYImage_Example/Pods-LYZYYImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4784DFA9B74D8A0A07341B7D /* Pods-LYZYYImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZYYImage_Example.release.xcconfig"; path = "Target Support Files/Pods-LYZYYImage_Example/Pods-LYZYYImage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYZYYImage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYZYYImage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95485CE92FF1F02610003C74 /* Pods_LYZYYImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYZYYImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFA7F44F262EF54EB1B1729 /* Pods-LYZYYImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYZYYImage_Tests.release.xcconfig"; path = "Target Support Files/Pods-LYZYYImage_Tests/Pods-LYZYYImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE5F3D6536F03653B545EB7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FE24B3754AB1E93334966F83 /* LYZYYImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYZYYImage.podspec; path = ../LYZYYImage.podspec; sourceTree = "<group>"; };
+		DE5F3D6536F03653B545EB7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FE24B3754AB1E93334966F83 /* LYZYYImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYZYYImage.podspec; path = ../LYZYYImage.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				60332FF1D328B6C3DA497BFC /* Pods-LYZYYImage_Tests.debug.xcconfig */,
 				BAFA7F44F262EF54EB1B1729 /* Pods-LYZYYImage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYZYYImage/LYZYYImage-Prefix.pch";
 				INFOPLIST_FILE = "LYZYYImage/LYZYYImage-Info.plist";
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LYZYYImage/LYZYYImage-Prefix.pch";
 				INFOPLIST_FILE = "LYZYYImage/LYZYYImage-Info.plist";
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
